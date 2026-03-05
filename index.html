@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday!</title>
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Poppins:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Pink and White Floral Background Layer -->
+    <div class="background-decorations">
+        <img src="assets/flowers1.png" class="bg-flower f-top-left" alt="">
+        <img src="assets/flowers2.png" class="bg-flower f-bottom-right" alt="">
+        <img src="assets/ribbon.png" class="bg-ribbon r-top-right" alt="">
+    </div>
+
+    <!-- Section 1: The Envelope -->
+    <section id="envelope-section" class="active-section">
+        <div class="envelope-wrapper">
+            <div id="envelope" class="envelope">
+                <div class="front flap"></div>
+                <div class="front pocket"></div>
+                <div class="letter">
+                    <div class="letter-content">
+                        <h1>Happy Birthday!</h1>
+                        <p>May your world always be colorful and your heart always be at peace.</p>
+                        <p>Open this to see your memories...</p>
+                        <button id="open-gallery-btn" class="btn">Click Me!</button>
+                    </div>
+                </div>
+                <div class="hearts">
+                    <div class="heart a1"></div>
+                    <div class="heart a2"></div>
+                    <div class="heart a3"></div>
+                </div>
+            </div>
+            <p class="click-instruction">Klik amplop untuk membuka surat</p>
+        </div>
+    </section>
+
+    <!-- Section 2: The Polaroid Gallery -->
+    <section id="gallery-section" class="hidden-section">
+        <div class="gallery-header">
+            <h2>Our Memories</h2>
+            <p>Beautiful moments captured in time</p>
+        </div>
+        <div class="polaroid-gallery">
+            <!-- Polaroid 1 -->
+            <div class="polaroid">
+                <div class="photo">
+                    <img src="assets/photo1.JPG" alt="Memory 1">
+                </div>
+                <div class="caption">Sweet Times</div>
+            </div>
+            <!-- Polaroid 2 -->
+            <div class="polaroid">
+                <div class="photo">
+                    <img src="assets/photo2.jpg" alt="Memory 2">
+                </div>
+                <div class="caption">Beautiful Day</div>
+            </div>
+            <!-- Polaroid 3 -->
+            <div class="polaroid">
+                <div class="photo">
+                    <img src="assets/photo3.jpeg" alt="Memory 3">
+                </div>
+                <div class="caption">Special Moment</div>
+            </div>
+            <!-- Polaroid 4 -->
+            <div class="polaroid">
+                <div class="photo">
+                    <img src="assets/photo4.jpeg" alt="Memory 4">
+                </div>
+                <div class="caption">Always Together</div>
+            </div>
+            <div class="letter-content">
+                        <h1>Happy Birthday Ivana!</h1>
+                        <p>I hope this new chapter bring you endless joy</p>
+                        <p>I hope you are always surrounded by people who love you❤️.</p>
+                        <p>And i hope you always find a reason to smile every single day😊</p>
+                        <p>I'm so grateful to have you in my life. Thank you for being you.</p>
+                        <p>~kayla cantik</p>
+                        </div>
+        </div>
+        <button id="back-btn" class="btn btn-outline">Kembali ke Amplop</button>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
